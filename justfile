@@ -1,5 +1,5 @@
 api:
-    cd apps/api && uv run uvicorn main:app --reload
+    uv run uvicorn api.main:app --reload
 
 web:
-    cd apps/web && pnpm dev
+    pnpm dev
